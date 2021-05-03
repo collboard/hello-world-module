@@ -29,7 +29,7 @@ declareModule(
             return (
                 <button
                     onClick={async () => {
-                        alert(`TODO:!!!!!!!`);
+                        alert(`Hello from Collboard modules!`);
                     }}
                     className="button button-primary button-vertical"
                 >
