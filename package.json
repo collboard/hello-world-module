@@ -1,9 +1,16 @@
 {
     "version": "10.4.1-1",
+    "description": "Simple sample module for Collboard.com created via @collboard/modules-sdk",
+    "license": "SEE LICENSE IN LICENSE",
     "contributors": [
         "Pavol Hejný <pavol@collboard.com> (https://pavolhejny.com)",
         "Jonáš Rosecký <jonas@collboard.com>"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/collboard/module-sample-basic"
+    },
+    "homepage": "!!! Link to Collboard store",
     "private": false,
     "main": "./src/sampleButtonModule.tsx",
     "scripts": {
@@ -11,7 +18,6 @@
         "publish": "colldev publish !!!"
     },
     "dependencies": {
-        "@collboard/modules-sdk": "^10.4.1-2",
-        "ts-loader": "^8.2.0"
+        "@collboard/modules-sdk": "^10.4.1-4"
     }
 }
