@@ -16,5 +16,5 @@ Most of the modules make sense on the board (not the homepage) **so you will pro
 
 These modules will be automatically installed & hot reloaded *(uninstalled+installed)* as you go.
 
-Notice that boards+its contents created under development mode will be automatically erased until some time passes.
+Notice that boards+its contents created under development mode will be automatically erased after some time.
 
