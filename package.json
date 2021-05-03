@@ -18,6 +18,6 @@
         "publish": "colldev publish !!!"
     },
     "dependencies": {
-        "@collboard/modules-sdk": "^10.4.1-4"
+        "@collboard/modules-sdk": "^10.4.1-6"
     }
 }
