@@ -5,19 +5,20 @@ declareModule(
     makeExtrajsxModule({
         manifest: {
             name: 'SampleButton',
-            title: { en: 'Button "Create your own copy"', cs: 'Tlačítko „Vytvořit vlastní kopii“' },
+            title: { en: 'Hello World Button"', cs: 'Hello World Tlačítko' },
             description: {
-                en: '', // TODO:
-                cs:
-                    'Můžete tabuli sdílet bezpečně pomocí odkazu pro zobrazení a ostatní si mohou vytvořit její kopii a tu editovat.', // TODO: Better text
+                en: 'Button exported from the SampleButtonModule',
+                cs: 'Tlačítko exportované ze SampleButtonModule',
             },
             keywords: [],
-            categories: ['Productivity', 'Buttons', 'Template'],
-            icon: '/assets/icons/copy-material.svg',
-            screenshots: [
-                /*TODO:*/
-            ],
-            //author: 'Test !!!',
+            categories: ['Buttons'],
+            icon: '/assets/icons/copy-material.svg', // TODO: module scoped assets
+            screenshots: [ ], // TODO: module scoped assets
+            author: {
+                name: 'Collboard Developers',
+                email: 'dev@collboard.com',
+                url: 'http://collboard.com/',
+            },
         },
         place: ExtraJsxPlace.EdgeRight,
         createExtraJsx({
@@ -33,7 +34,7 @@ declareModule(
                     }}
                     className="button button-primary button-vertical"
                 >
-                    Test
+                    <span>Hello World!</span>
                 </button>
             );
         },
