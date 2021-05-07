@@ -10,13 +10,13 @@
         "type": "git",
         "url": "https://github.com/collboard/module-sample-basic"
     },
-    "homepage": "!!! Link to Collboard store",
+    "homepage": "https://collboard.com/#!!Link to Collboard store",
     "private": false,
     "main": "./src/sampleButtonModule.tsx",
     "scripts": {
         "start": "colldev",
         "post version": "npm run publish",
-        "publish": "colldev publish !!!"
+        "publish": "colldev publish"
     },
     "dependencies": {
         "@collboard/modules-sdk": "^10.4.1-6"
