@@ -15,10 +15,9 @@
     "main": "./src/sampleButtonModule.tsx",
     "scripts": {
         "start": "colldev",
-        "post version": "npm run publish",
         "publish": "colldev publish"
     },
     "dependencies": {
-        "@collboard/modules-sdk": "^10.4.1-6"
+        "@collboard/modules-sdk": "^11.1.0-21"
     }
 }
