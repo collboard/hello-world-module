@@ -5,27 +5,16 @@ declareModule(
     makeExtrajsxModule({
         manifest: {
             name: 'SampleButton',
-            title: { en: 'Button "Create your own copy"', cs: 'Tlačítko „Vytvořit vlastní kopii“' },
+            title: { en: 'Hello world' },
             description: {
-                en: '', // TODO:
-                cs:
-                    'Můžete tabuli sdílet bezpečně pomocí odkazu pro zobrazení a ostatní si mohou vytvořit její kopii a tu editovat.', // TODO: Better text
+                en: 'Simple sample hello world button for Collboard.com',
             },
             keywords: [],
             categories: ['Productivity', 'Buttons', 'Template'],
             icon: '/assets/icons/copy-material.svg',
-            screenshots: [
-                /*TODO:*/
-            ],
-            //author: 'Test !!!',
         },
         place: ExtraJsxPlace.EdgeRight,
-        createExtraJsx({
-            routingSystem,
-            translationsSystem,
-            apiClient,
-            materialArtVersioningSystem: { cornerstoneArts },
-        }) {
+        createExtraJsx() {
             return (
                 <button
                     onClick={async () => {
