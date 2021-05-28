@@ -22,7 +22,7 @@ declareModule(
                     }}
                     className="button button-primary button-vertical"
                 >
-                    Test
+                    <span>Hello World!</span>
                 </button>
             );
         },

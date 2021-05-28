@@ -5,7 +5,11 @@ Simple sample module for [Collboard.com](https://collboard.com/) created via [@c
 To start work, first `npm install` dependencies and then run `colldev` CLI util:
 
 ```bash
+# Linux, WSL
 colldev
+
+# Windows, PowerShell
+npx colldev
 ```
 
 Colldev will automatically look into the [package.json](./package.json) find **main** entry *(it can be typescript or javascript file)*. And watch, build and serve changes to Collboard in development mode.
@@ -16,5 +20,5 @@ Most of the modules make sense on the board (not the homepage) **so you will pro
 
 These modules will be automatically installed & hot reloaded *(uninstalled+installed)* as you go.
 
-Notice that boards+its contents created under development mode will be automatically erased until some time passes.
+Notice that boards+its contents created under development mode will be automatically erased after some time.
 
