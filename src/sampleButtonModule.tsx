@@ -1,5 +1,6 @@
 import { declareModule, ExtraJsxPlace, makeExtrajsxModule } from '@collboard/modules-sdk';
 import * as React from 'react';
+import { StyledIcon } from './StyledIcon';
 
 declareModule(
     makeExtrajsxModule({
@@ -22,7 +23,8 @@ declareModule(
                     }}
                     className="button button-primary button-vertical"
                 >
-                    <span>Hello World!</span>
+                    <span>Hello World! </span>
+                    <StyledIcon/>
                 </button>
             );
         },

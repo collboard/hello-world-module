@@ -17,6 +17,10 @@
         "publish": "colldev publish"
     },
     "dependencies": {
-        "@collboard/modules-sdk": "^11.3.0-5"
+        "@collboard/modules-sdk": "^11.3.0-5",
+        "styled-components": "^4.4.1"
+    },
+    "devDependencies": {
+        "@types/styled-components": "^4.4.1"
     }
 }
