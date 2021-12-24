@@ -14,13 +14,15 @@
     "main": "./src/sampleButtonModule.tsx",
     "scripts": {
         "start": "colldev",
-        "publish": "colldev publish"
-    },
-    "dependencies": {
-        "@collboard/modules-sdk": "^11.3.0-5",
-        "styled-components": "^4.4.1"
+        "test": "colldev test",
+        "lint": "tslint -p tsconfig.json",
+        "preversion": "npm run lint && npm test",
+        "postversion": "git push && git push --tags"
     },
     "devDependencies": {
-        "@types/styled-components": "^4.4.1"
+        "@collboard/modules-sdk": "^11.3.0-5",
+        "@types/styled-components": "^4.4.1",
+        "styled-components": "^4.4.1",
+        "tslint": "^6.1.3"
     }
 }

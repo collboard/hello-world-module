@@ -1,0 +1,31 @@
+name: Publish new version
+
+on:
+    push:
+        tags:
+            - 'v*'
+
+jobs:
+    test:
+        name: Test
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
+              with:
+                  node-version: 14
+            - run: npm ci
+            - run: npm test
+
+
+    publish-github:
+        name: Publish on Collboard module store
+        needs: test
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
+              with:
+                  node-version: 14
+            - run: npm ci
+            - run: colldev publish --token ${{secrets.MODULE_STORE_ROOT_TOKEN}}
