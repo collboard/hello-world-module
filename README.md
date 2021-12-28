@@ -2,6 +2,9 @@
 
 Simple sample module for [Collboard.com](https://collboard.com/) created via [@collboard/modules-sdk](https://www.npmjs.com/package/@collboard/modules-sdk).
 
+[![Test](https://github.com/collboard/module-sample-basic/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/module-sample-basic/actions/workflows/test.yml)
+[![Lint](https://github.com/collboard/module-sample-basic/actions/workflows/lint.yml/badge.svg)](https://github.com/collboard/module-sample-basic/actions/workflows/lint.yml)
+
 To start work, first `npm install` dependencies and then run `colldev` CLI util:
 
 ```bash
