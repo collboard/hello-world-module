@@ -1,5 +1,6 @@
 {
-    "version": "10.4.1-1",
+    "name": "@collboard/module-sample-basic",
+    "version": "0.1.0",
     "description": "Simple sample module for Collboard.com created via @collboard/modules-sdk",
     "license": "SEE LICENSE IN LICENSE",
     "contributors": [

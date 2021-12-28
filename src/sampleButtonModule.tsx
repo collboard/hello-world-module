@@ -5,14 +5,10 @@ import { StyledIcon } from './StyledIcon';
 declareModule(
     makeExtrajsxModule({
         manifest: {
-            name: 'SampleButton',
-            title: { en: 'Hello world' },
-            description: {
-                en: 'Simple sample hello world button for Collboard.com',
-            },
-            keywords: [],
+            name: "@collboard/module-sample-basic",
+            title: { en: 'Sample button' },
             categories: ['Productivity', 'Buttons', 'Template'],
-            icon: '/assets/icons/copy-material.svg',
+            // TODO: !! Publishing assets: icon: '/assets/icons/copy-material.svg',
         },
         place: ExtraJsxPlace.EdgeRight,
         createExtraJsx() {
