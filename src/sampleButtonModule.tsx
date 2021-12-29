@@ -5,7 +5,7 @@ import { StyledIcon } from './StyledIcon';
 declareModule(
     makeExtrajsxModule({
         manifest: {
-            name: "@collboard/module-sample-basic",
+            name: '@collboard/module-sample-basic',
             title: { en: 'Sample button' },
             categories: ['Productivity', 'Buttons', 'Template'],
             // TODO: !! Publishing assets: icon: '/assets/icons/copy-material.svg',
@@ -20,7 +20,7 @@ declareModule(
                     className="button button-primary button-vertical"
                 >
                     <span>Hello World! </span>
-                    <StyledIcon/>
+                    <StyledIcon />
                 </button>
             );
         },
