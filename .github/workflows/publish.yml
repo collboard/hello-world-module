@@ -29,4 +29,4 @@ jobs:
               with:
                   node-version: 17
             - run: npm ci
-            - run: colldev publish --token ${{secrets.MODULE_STORE_ROOT_TOKEN}}
+            - run: npx colldev publish --token ${{secrets.MODULE_STORE_ROOT_TOKEN}}
