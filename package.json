@@ -12,7 +12,7 @@
         "url": "https://github.com/collboard/hello-world"
     },
     "private": false,
-    "main": "./src/sampleButtonModule.tsx",
+    "main": "./src/moduleSampleBasic.tsx",
     "scripts": {
         "start": "colldev",
         "test": "colldev test",
