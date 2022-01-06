@@ -1,26 +1,40 @@
-import { declareModule, ExtraJsxPlace, makeExtrajsxModule } from '@collboard/modules-sdk';
+import { declareModule, ExtraJsxPlace, makeExtrajsxModule, randomEmoji } from '@collboard/modules-sdk';
 import * as React from 'react';
 import styled from 'styled-components';
+import helloWorldButton from '../assets/hello-world-button.png';
+import helloWorldIcon from '../assets/hello-world-icon.png';
+import { version } from '../package.json';
 
 declareModule(
     makeExtrajsxModule({
         manifest: {
             name: '@collboard/module-sample-basic',
+            version,
             title: { en: 'Sample button' },
             categories: ['Productivity', 'Buttons', 'Template'],
-            icon: '/assets/logo.svg',
+            icon: helloWorldIcon,
+            flags: {
+                isTemplate: true,
+            },
         },
         place: ExtraJsxPlace.EdgeRight,
-        createExtraJsx() {
+        async createExtraJsx(systems) {
+            const { notificationSystem } = await systems.request('notificationSystem');
             return (
                 <ButtonElement
                     onClick={async () => {
-                        alert(`Hello from Collboard modules!`);
+                        notificationSystem.publish({
+                            type: 'info',
+                            tag: `hello-world-${Date.now()}`,
+                            title: 'Hello world!',
+                            subtitle: `Hello from Collboard modules!`,
+                            body: `Sending the ${randomEmoji()} from a module!`,
+                            canBeClosed: true,
+                        });
                     }}
                     className="button button-primary button-vertical"
                 >
-                    <img src="/assets/logo" />
-                    <span>Hello World! </span>
+                    <img alt="Hello World!" src={helloWorldButton} />
                 </ButtonElement>
             );
         },
@@ -31,7 +45,7 @@ const ButtonElement = styled.button`
     background-color: #906090;
 
     img {
-        width: 20px;
-        height: 20px;
+        display: block;
+        width: 50px;
     }
 `;
