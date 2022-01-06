@@ -3,13 +3,17 @@ import * as React from 'react';
 import styled from 'styled-components';
 import helloWorldButton from '../assets/hello-world-button.png';
 import helloWorldIcon from '../assets/hello-world-icon.png';
-import { version } from '../package.json';
+import { contributors, description, license, repository, version } from '../package.json';
 
 declareModule(
     makeExtrajsxModule({
         manifest: {
             name: '@collboard/module-sample-basic',
             version,
+            description,
+            contributors,
+            license,
+            repository,
             title: { en: 'Sample button' },
             categories: ['Productivity', 'Buttons', 'Template'],
             icon: helloWorldIcon,
