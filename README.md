@@ -21,6 +21,7 @@ npm start
 ```
 
 5. _(optional)_ **Install** [recommended VSCode extensions](./.vscode/extensions.json)
+6. _(optional)_ Add `collboard-module` topic tag to your module repository details
 
 _Note: Look at all of our [templates](https://github.com/topics/collboard-module-template) and [miscellaneous Collboard modules on GitHub](https://github.com/topics/collboard-module) to pick best fit for your project._
 
