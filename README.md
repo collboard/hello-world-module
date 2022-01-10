@@ -22,9 +22,9 @@ npm start
 
 5. _(optional)_ **Install** [recommended VSCode extensions](./.vscode/extensions.json)
 
-_Note: Look at **all of our [templates](https://github.com/topics/collboard-module)** to pick best fit for your project._
+_Note: Look at all of our [templates](https://github.com/topics/collboard-module-template) and [miscellaneous Collboard modules on GitHub](https://github.com/topics/collboard-module) to pick best fit for your project._
 
-_Note: You can also **[start from scratch](https://github.com/collboard/modules-sdk#how-to-develop-your-first-module)** instead of using this template._
+_Note: You can also [start from scratch](https://github.com/collboard/modules-sdk#how-to-develop-your-first-module) instead of using this template._
 
 ## Publishing the module
 
