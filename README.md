@@ -9,23 +9,29 @@ Simple sample module for [Collboard.com](https://collboard.com/) created via [@c
 [![Known Vulnerabilities](https://snyk.io/test/github/collboard/module-sample-basic/badge.svg)](https://snyk.io/test/github/collboard/module-sample-basic)
 [![Issues](https://img.shields.io/github/issues/collboard/module-sample-basic.svg?style=flat)](https://github.com/collboard/module-sample-basic/issues)
 
-To start work, first `npm install` dependencies and then run `colldev` CLI util:
+## How to create your first module from this template
+
+1. **Clone** this repository
+2. **Install** NPM dependencies
+3. Change `@collboard/module-sample-objects` to your module name and scope
+4. Start developing!
 
 ```bash
-# Linux, WSL
-colldev
-
-# Windows, PowerShell
-npx colldev
+npm start
 ```
 
-Colldev will automatically look into the [package.json](./package.json) find **main** entry *(it can be typescript or javascript file)*. And watch, build and serve changes to Collboard in development mode.
+5. _(optional)_ **Install** [recommended VSCode extensions](./.vscode/extensions.json)
 
-Then you open [Collboard in developer mode - dev.collboard.com](https://dev.collboard.com) and there you will see modules that you are working on.
+_Note: Look at **all of our [templates](https://github.com/topics/collboard-module)** to pick best fit for your project._
 
-Most of the modules make sense on the board (not the homepage) **so you will probably need to create a new board**.
+_Note: You can also **[start from scratch](https://github.com/collboard/modules-sdk#how-to-develop-your-first-module)** instead of using this template._
 
-These modules will be automatically installed & hot reloaded *(uninstalled+installed)* as you go.
+## Publishing the module
 
-Notice that boards+its contents created under development mode will be automatically erased after some time.
+To compile, pack and send the module to Collboard module store server run:
 
+```bash
+colldev publish --token YOUR_TOKEN
+```
+
+_Tip: In this template, there is [automated GitHub workflow](./.github/workflows/publish.yml) to publish after a new version automatically._
