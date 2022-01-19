@@ -22,8 +22,6 @@
     "dependencies": {},
     "devDependencies": {
         "@collboard/modules-sdk": "18.10.0",
-        "@types/styled-components": "^4.4.1",
-        "styled-components": "^4.4.1",
         "tslint": "^6.1.3"
     }
 }
