@@ -9,12 +9,14 @@
         {
             "name": "🧪 Test",
             "command": "npm run test",
-            "onlySingle": true
+            "onlySingle": true,
+            "focus": true
         },
         {
             "name": "🧪 Lint",
             "command": "npm run lint",
-            "onlySingle": true
+            "onlySingle": true,
+            "focus": true
         }
     
     ]
