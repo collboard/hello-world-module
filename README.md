@@ -18,15 +18,18 @@ Simple sample module for [Collboard.com](https://collboard.com/) created via [@c
 
 1. **Clone** this repository
 2. **Install** NPM dependencies
-3. Change `@collboard/hello-world-module` to your module name and scope
+3. Change `@collboard/hello-world-module` to your module name and scope _(In VSCode, use `Ctrl+Shift+H` to trigger search&replace)_
 4. Start developing!
 
 ```bash
 npm start
 ```
 
+_Or you can use recommended VSCode extension [Terminals Manager](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-terminals) and trigger scripts by `Ctrl+Alt+T`_
+
 5. _(optional)_ **Install** [recommended VSCode extensions](./.vscode/extensions.json)
 6. _(optional)_ Add `collboard-module` topic tag to your module repository details
+7. _(optional)_ Change module README. _Tip: You can keep the badges part of this template README just with 3. changed `@collboard/hello-world-module` + removed `Use this template` badge._
 
 _Note: Look at all of our [templates](https://github.com/topics/collboard-module-template) and [miscellaneous Collboard modules on GitHub](https://github.com/topics/collboard-module) to pick best fit for your project._
 
