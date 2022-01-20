@@ -9,6 +9,7 @@ Simple sample module for [Collboard.com](https://collboard.com/) created via [@c
 [![Lint](https://github.com/collboard/module-sample-basic/actions/workflows/lint.yml/badge.svg)](https://github.com/collboard/module-sample-basic/actions/workflows/lint.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/collboard/module-sample-basic/badge.svg)](https://snyk.io/test/github/collboard/module-sample-basic)
 [![Issues](https://img.shields.io/github/issues/collboard/module-sample-basic.svg?style=flat)](https://github.com/collboard/module-sample-basic/issues)
+<!--TODO: Make badge from module store with published version + maybe some stats like count of installations etc.-->
 <!--/Badges-->
 
 ## How to create your first module from this template
