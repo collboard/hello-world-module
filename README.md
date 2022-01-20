@@ -1,14 +1,16 @@
-# 📗 Sample of Collboard module
+# 📗 Hello world Collboard module
 
 Simple sample module for [Collboard.com](https://collboard.com/) created via [@collboard/modules-sdk](https://www.npmjs.com/package/@collboard/modules-sdk).
 
 <!--Badges-->
-[![Use this template](https://raw.githubusercontent.com/collboard/docs/main/buttons/use-this-template.button.png)](https://github.com/collboard/module-sample-basic/generate)
-[![License](https://img.shields.io/github/license/collboard/module-sample-basic.svg?style=flat)](https://raw.githubusercontent.com/collboard/module-sample-basic/master/LICENSE)
-[![Test](https://github.com/collboard/module-sample-basic/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/module-sample-basic/actions/workflows/test.yml)
-[![Lint](https://github.com/collboard/module-sample-basic/actions/workflows/lint.yml/badge.svg)](https://github.com/collboard/module-sample-basic/actions/workflows/lint.yml)
-[![Known Vulnerabilities](https://snyk.io/test/github/collboard/module-sample-basic/badge.svg)](https://snyk.io/test/github/collboard/module-sample-basic)
-[![Issues](https://img.shields.io/github/issues/collboard/module-sample-basic.svg?style=flat)](https://github.com/collboard/module-sample-basic/issues)
+
+[![Use this template](https://raw.githubusercontent.com/collboard/docs/main/buttons/use-this-template.button.png)](https://github.com/collboard/hello-world-module/generate)
+[![License](https://img.shields.io/github/license/collboard/hello-world-module.svg?style=flat)](https://raw.githubusercontent.com/collboard/hello-world-module/master/LICENSE)
+[![Test](https://github.com/collboard/hello-world-module/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/hello-world-module/actions/workflows/test.yml)
+[![Lint](https://github.com/collboard/hello-world-module/actions/workflows/lint.yml/badge.svg)](https://github.com/collboard/hello-world-module/actions/workflows/lint.yml)
+[![Known Vulnerabilities](https://snyk.io/test/github/collboard/hello-world-module/badge.svg)](https://snyk.io/test/github/collboard/hello-world-module)
+[![Issues](https://img.shields.io/github/issues/collboard/hello-world-module.svg?style=flat)](https://github.com/collboard/hello-world-module/issues)
+
 <!--TODO: Make badge from module store with published version + maybe some stats like count of installations etc.-->
 <!--/Badges-->
 
@@ -16,7 +18,7 @@ Simple sample module for [Collboard.com](https://collboard.com/) created via [@c
 
 1. **Clone** this repository
 2. **Install** NPM dependencies
-3. Change `@collboard/module-sample-objects` to your module name and scope
+3. Change `@collboard/hello-world-module` to your module name and scope
 4. Start developing!
 
 ```bash
