@@ -14,10 +14,17 @@ jobs:
             - uses: actions/setup-node@v1
               with:
                   node-version: 17
-            - run: npm ci
-            - run: npm run lint
-            - run: npm run test
 
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Lint
+              run: npm run lint
+
+            - name: Test
+              run: npm run test
+              env:
+                  NODE_OPTIONS: --openssl-legacy-provider
 
     publish-github:
         name: Publish on Collboard module store
@@ -28,5 +35,11 @@ jobs:
             - uses: actions/setup-node@v1
               with:
                   node-version: 17
-            - run: npm ci
-            - run: npx colldev publish --token ${{secrets.MODULE_STORE_ROOT_TOKEN}}
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Publish
+              run: npx colldev publish --token ${{secrets.MODULE_STORE_ROOT_TOKEN}}
+              env:
+                  NODE_OPTIONS: --openssl-legacy-provider
