@@ -4,14 +4,14 @@ Simple sample module for [Collboard.com](https://collboard.com/) created via [@c
 
 <!--Badges-->
 
-[![Use this template](https://raw.githubusercontent.com/collboard/docs/main/buttons/use-this-template.button.png)](https://github.com/collboard/hello-world-module/generate)
-[![License](https://img.shields.io/github/license/collboard/hello-world-module.svg?style=flat)](https://raw.githubusercontent.com/collboard/hello-world-module/master/LICENSE)
-[![Test](https://github.com/collboard/hello-world-module/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/hello-world-module/actions/workflows/test.yml)
-[![Lint](https://github.com/collboard/hello-world-module/actions/workflows/lint.yml/badge.svg)](https://github.com/collboard/hello-world-module/actions/workflows/lint.yml)
-[![Known Vulnerabilities](https://snyk.io/test/github/collboard/hello-world-module/badge.svg)](https://snyk.io/test/github/collboard/hello-world-module)
-[![Issues](https://img.shields.io/github/issues/collboard/hello-world-module.svg?style=flat)](https://github.com/collboard/hello-world-module/issues)
+ [![License](https://img.shields.io/github/license/collboard/hello-world-module.svg?style=flat)](https://raw.githubusercontent.com/collboard/hello-world-module/master/LICENSE)
+ [![NPM Version](https://badge.fury.io/js/@collboard%2Fhello-world-module.svg)](https://www.npmjs.com/package/@collboard/hello-world-module)
+ [![undefined](https://github.com/collboard/hello-world-module/actions/workflows/lint.yml/badge.svg)](https://github.com/collboard/hello-world-module/actions/workflows/lint.yml.yml)
+ [![undefined](https://github.com/collboard/hello-world-module/actions/workflows/publish.yml/badge.svg)](https://github.com/collboard/hello-world-module/actions/workflows/publish.yml.yml)
+ [![undefined](https://github.com/collboard/hello-world-module/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/hello-world-module/actions/workflows/test.yml.yml)
+ [![Known Vulnerabilities](https://snyk.io/test/github/collboard/hello-world-module/badge.svg)](https://snyk.io/test/github/collboard/hello-world-module)
+ [![Issues](https://img.shields.io/github/issues/collboard/hello-world-module.svg?style=flat)](https://github.com/collboard/hello-world-module/issues)
 
-<!--TODO: Make badge from module store with published version + maybe some stats like count of installations etc.-->
 <!--/Badges-->
 
 ## How to create your first module from this template
