@@ -6,7 +6,7 @@ Simple sample module for [Collboard.com](https://collboard.com/) created via [@c
 
 [![License of 📗 Hello world Collboard module](https://img.shields.io/github/license/collboard/hello-world-module.svg?style=flat)](https://github.com/collboard/hello-world-module/blob/main/LICENSE)
 [![NPM Version of 📗 Hello world Collboard module](https://badge.fury.io/js/hello-world-module.svg)](https://www.npmjs.com/package/hello-world-module)
-<!--[![Quality of package 📗 Hello world Collboard module](https://packagequality.com/shield/hello-world-module.svg)](https://packagequality.com/#?package=hello-world-module)-->
+[![Quality of package 📗 Hello world Collboard module](https://packagequality.com/shield/hello-world-module.svg)](https://packagequality.com/#?package=hello-world-module)
 [![lint](https://github.com/collboard/hello-world-module/actions/workflows/lint.yml/badge.svg)](https://github.com/collboard/hello-world-module/actions/workflows/lint.yml)
 [![test](https://github.com/collboard/hello-world-module/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/hello-world-module/actions/workflows/test.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/collboard/hello-world-module/badge.svg)](https://snyk.io/test/github/collboard/hello-world-module)
