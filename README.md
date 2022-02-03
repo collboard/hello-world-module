@@ -44,3 +44,13 @@ colldev publish --token YOUR_TOKEN
 ```
 
 _Tip: In this template, there is [automated GitHub workflow](./.github/workflows/publish.yml) to publish after a new version automatically._
+
+
+
+<!--Contributing-->
+
+## 🖋️ Contributing
+
+I am open to pull requests, feedback, and suggestions. Or if you like this utility, you can [☕ buy me a coffee](https://www.buymeacoffee.com/hejny) or [donate via cryptocurrencies](https://github.com/hejny/hejny/blob/main/documents/crypto.md).
+
+<!--/Contributing-->
