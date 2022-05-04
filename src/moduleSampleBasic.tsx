@@ -6,7 +6,7 @@ import { contributors, description, license, repository, version } from '../pack
 declareModule(
     makeExtrajsxModule({
         manifest: {
-            name: '@collboard/hello-world-module',
+            name: '@collboard-templates/hello-world-module',
             version,
             description,
             contributors,
