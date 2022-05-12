@@ -1,7 +1,7 @@
 {
   "name": "@collboard/hello-world-module",
   "version": "0.3.48",
-  "description": "Simple sample module for Collboard.com created via @collboard/modules-sdk.",
+  "description": "Simple sample module for Collboard.com",
   "license": "SEE LICENSE IN LICENSE",
   "contributors": [
     "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)",
