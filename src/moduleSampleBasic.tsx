@@ -1,10 +1,10 @@
-import { declareModule, ExtraJsxPlace, makeExtrajsxModule, randomEmoji, React, styled } from '@collboard/modules-sdk';
+import { declareModule, UserInterfaceElementPlace, makeUserInterfaceModule, randomEmoji, React, styled } from '@collboard/modules-sdk';
 import helloWorldButton from '../assets/hello-world-button.png';
 import helloWorldIcon from '../assets/hello-world-icon.png';
 import { contributors, description, license, repository, version } from '../package.json';
 
 declareModule(
-    makeExtrajsxModule({
+    makeUserInterfaceModule({
         manifest: {
             name: '@collboard-templates/hello-world-module',
             version,
@@ -19,8 +19,8 @@ declareModule(
                 isTemplate: true,
             },
         },
-        place: ExtraJsxPlace.EdgeRight,
-        async createExtraJsx(systems) {
+        place: UserInterfaceElementPlace.EdgeRight,
+        async createElement(systems) {
             const { notificationSystem } = await systems.request('notificationSystem');
             return (
                 <ButtonElement
