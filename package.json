@@ -21,7 +21,7 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@collboard/modules-sdk": "27.45.101",
+        "@collboard/modules-sdk": "27.46.200",
         "tslint": "6.1.3"
     }
 }
