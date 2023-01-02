@@ -26,7 +26,7 @@ jobs:
               env:
                   NODE_OPTIONS: --openssl-legacy-provider
 
-    publish-github:
+    publish-collboard:
         name: Publish on Collboard module store
         needs: test
         runs-on: ubuntu-latest
