@@ -20,7 +20,7 @@ declareModule(
             },
         },
         place: UserInterfaceElementPlace.EdgeRight,
-        async createElement(systems) {
+        async render(systems) {
             const { notificationSystem } = await systems.request('notificationSystem');
             return (
                 <ButtonElement
