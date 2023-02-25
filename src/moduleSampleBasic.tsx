@@ -1,4 +1,4 @@
-import { declareModule, UserInterfaceElementPlace, makeUserInterfaceModule, randomEmoji, React, styled } from '@collboard/modules-sdk';
+import { declareModule, makeUserInterfaceModule, randomEmoji, React, styled, UserInterfaceElementPlace } from '@collboard/modules-sdk';
 import helloWorldButton from '../assets/hello-world-button.png';
 import helloWorldIcon from '../assets/hello-world-icon.png';
 import { contributors, description, license, repository, version } from '../package.json';
