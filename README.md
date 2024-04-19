@@ -18,6 +18,7 @@ Simple sample module for [Collboard.com](https://collboard.com/) created via [@c
 [![test](https://github.com/collboard/hello-world-module/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/hello-world-module/actions/workflows/test.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/collboard/hello-world-module/badge.svg)](https://snyk.io/test/github/collboard/hello-world-module)
 [![Issues](https://img.shields.io/github/issues/collboard/hello-world-module.svg?style=flat)](https://github.com/collboard/hello-world-module/issues)
+<!--[![Socket](https://socket.dev/api/badge/npm/package/@collboard/hello-world-module)](https://socket.dev/npm/package/@collboard/hello-world-module)-->
 
 <!--/Badges-->
 
