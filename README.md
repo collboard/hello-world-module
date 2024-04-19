@@ -68,9 +68,7 @@ _Tip: In this template, there is [automated GitHub workflow](./.github/workflows
 ## ✨ Partners
 
 
-<a href="https://collboard.com/">
-  <img src="https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png" alt="Collboard logo" width="50"  />
-</a>
+<a href="https://collboard.com/" title="Collboard"><img src="https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png" alt="Collboard" height="60"></a>
 
 
 [Become a partner](https://www.pavolhejny.com/contact/)
