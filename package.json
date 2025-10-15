@@ -1,6 +1,6 @@
 {
     "name": "@collboard/hello-world-module",
-    "version": "0.3.344",
+    "version": "0.3.345",
     "description": "Simple sample module for Collboard.com",
     "license": "Apache-2.0",
     "contributors": [
