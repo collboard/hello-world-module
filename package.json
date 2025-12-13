@@ -9,7 +9,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/collboard/hello-world-module"
+        "url": "git+https://github.com/collboard/hello-world-module.git"
     },
     "private": false,
     "scripts": {
